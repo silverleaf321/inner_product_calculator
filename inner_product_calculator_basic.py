@@ -8,7 +8,7 @@ def t(x):
 
 t_matrix = [0, 1/2, 1]
 
-sol = 0 # maybe adjust this
+sol = 0 
 
 for i in t_matrix:
     sol += p(i) * t(i)  # maybe adjust this
